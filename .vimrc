@@ -29,6 +29,6 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'ervandew/supertab'
 call plug#end()
