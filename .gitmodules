@@ -1,6 +1,3 @@
-[submodule ".vim/plugged/ale"]
-	path = .vim/plugged/ale
-	url = https://github.com/dense-analysis/ale.git
 [submodule "powerlevel10k"]
 	path = powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
