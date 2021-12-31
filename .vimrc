@@ -32,4 +32,6 @@ Plug 'tpope/vim-repeat'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'dense-analysis/ale'
 Plug 'ervandew/supertab'
+Plug 'davidhalter/jedi-vim'
+Plug 'preservim/nerdtree'
 call plug#end()
