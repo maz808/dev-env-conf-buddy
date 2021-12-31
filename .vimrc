@@ -9,6 +9,7 @@ set showcmd
 set nu
 set updatetime=100
 set omnifunc=syntaxcomplete#Complete
+set mouse=a
 filetype plugin indent on
 
 " SuperTab options
