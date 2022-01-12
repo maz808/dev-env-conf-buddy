@@ -16,4 +16,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+source ~/zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
