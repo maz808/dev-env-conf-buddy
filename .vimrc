@@ -1,6 +1,3 @@
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
 set tabstop=4 shiftwidth=4 expandtab
 set laststatus=2
 set showtabline=2
@@ -34,4 +31,5 @@ Plug 'dense-analysis/ale'
 Plug 'ervandew/supertab'
 Plug 'davidhalter/jedi-vim'
 Plug 'preservim/nerdtree'
+Plug 'vim-airline/vim-airline'
 call plug#end()

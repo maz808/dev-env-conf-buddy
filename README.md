@@ -18,8 +18,3 @@ cp .zshrc ~/.zshrc
 cp .zprofile ~/.zprofile
 '''
 
-Ensure python3 (w/ pip) and vim (w/ python3 enabled) are installed. Then run:
-'''
-python3 -m pip install powerline-status
-'''
-
