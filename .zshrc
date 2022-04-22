@@ -1,5 +1,15 @@
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+# Antigen
+source ~/antigen.zsh
+
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle softmoth/zsh-vim-mode@main
+
+antigen apply
+# Antigen end
+
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _expand _complete _ignored
@@ -16,5 +26,3 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-source ~/zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
