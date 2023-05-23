@@ -1,14 +1,10 @@
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-# Antigen
-source ~/antigen.zsh
+# Antidote ZSH plugin manager (plugin list in '.zsh_plugins.txt')
+source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+antidote load
 
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle softmoth/zsh-vim-mode@main
-
-antigen apply
-# Antigen end
+# Antidote end
 
 # The following lines were added by compinstall
 

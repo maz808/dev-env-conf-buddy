@@ -1,0 +1,6 @@
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+softmoth/zsh-vim-mode branch:main
+
+romkatv/powerlevel10k
+
