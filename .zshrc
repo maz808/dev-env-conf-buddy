@@ -1,5 +1,3 @@
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
 # Antidote ZSH plugin manager (plugin list in '.zsh_plugins.txt')
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load
