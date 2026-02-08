@@ -6,17 +6,9 @@ Change default shell to zsh if not already:
 chsh -s $(which zsh)
 ```
 
-Create links and copy files:
+Setup env using setup script:
 
 ```console
-ln -s ${PWD}/.tmux/.tmux.conf ~/.tmux.conf
-cp .tmux/.tmux.conf.local ~/.tmux.conf.local 
-ln -s ${PWD}/.vim ~/.vim
-ln -s ${PWD}/.vimrc ~/.vimrc
-ln -s ${PWD}/powerlevel10k ~/powerlevel10k
-ln -s ${PWD}/tmux_startup.zsh ~/tmux_startup.zsh
-curl -L git.io/antigen > ~/antigen.zsh
-cp .zshrc ~/.zshrc
-cp .zprofile ~/.zprofile
+./setup_env.zsh
 ```
 
