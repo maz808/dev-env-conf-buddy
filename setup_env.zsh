@@ -18,6 +18,9 @@ cp .zprofile ~/.zprofile
 # Shell Utility Functions
 ln -s ${PWD}/shell_funcs.zsh ~/shell_funcs.zsh
 
+# Shell Utility Aliases
+ln -s ${PWD}/aliases.zsh ~/aliases.zsh
+
 # antidote: zsh plugin manager
 git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
 ln -s ${PWD}/.zsh_plugins.txt ~/.zsh_plugins.txt
@@ -27,4 +30,10 @@ sudo apt update && sudo apt upgrade
 
 # exa: replacement for ls
 sudo apt install eza
+
+# gum: shell script utilities
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
+sudo apt update && sudo apt install gum
 

@@ -1,6 +1,9 @@
 # Load shell utility functions
 source ~/shell_funcs.zsh
 
+# Load aliases
+source ~/aliases.zsh
+
 # Antidote ZSH plugin manager (plugin list in '.zsh_plugins.txt')
 # ZDOTDIR=~
 source ~/.antidote/antidote.zsh
